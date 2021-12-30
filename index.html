@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<title>Captcha Verification</title>
+
+<body onload="generate()">
+    <div class="wrapper"></div>
+    <h2 id="status" style="color: #ee7e6a;"></h2>
+    <div>
+        <input type="text" readonly id="generated-captcha">
+    </div>
+    <div>
+        <input type="text" id="entered-captcha" placeholder="Type captcha here">
+    </div>
+    <div>
+        <button type="button" onclick="generate()" id="gen">Generate</button>
+        <button type="button" onclick="check()">Verify</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
