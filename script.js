@@ -16,7 +16,7 @@ generate = () => {
     stat.innerText = "Verification Required";
 }
 
-check = () => {
+verify = () => {
     let userValue = document.getElementById("entered-captcha").value;
     console.log("CAPTCHA:", captcha);
     console.log("USER INPUT:", userValue);
